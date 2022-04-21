@@ -1,0 +1,30 @@
+<header>
+  <div class="navbar navbar-dark bg-primary shadow-sm">
+    <button class="navbar-brand align-item-center d-flex" 
+    routerLink="products"
+    class="btn btn-primary">
+      &nbsp;<i style="font-size: 40px" class="fa fa-shopping-bag">&nbsp; </i>
+      <strong style="font-size: 30px">Item Gallery</strong>
+    </button>
+    <button
+      routerLink="login"
+      class="btn btn-primary"
+      style="position: absolute; right: 250px"
+    >
+      <i style="font-size: 30px" class="fa fa-sign-in">&nbsp; </i>
+      <strong style="font-size: 20px">Sign In</strong>
+    </button>
+    <button
+      routerLink="register"
+      class="btn btn-primary"
+      style="position: absolute; right: 100px"
+    >
+      <i style="font-size: 30px" class="fa fa-user-plus">&nbsp; </i>
+      <strong style="font-size: 20px">Sign Up</strong>
+    </button>
+    <button routerLink="cart" class="btn btn-primary">
+      <i style="font-size: 30px" class="fas fa-cart-plus"></i>
+      <div style="font-size: 10px" class="badge bg-danger">{{ totalItem }}</div>
+    </button>
+  </div>
+</header>
